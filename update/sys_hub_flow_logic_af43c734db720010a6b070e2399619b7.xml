@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6b43c734db720010a6b070e2399619b6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="Assignee Category Decision">268ce674db320010a6b070e239961926</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="NeedIt Fulfillment">99d0dd0fdb620010a6b070e23996190d</flow>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2c729242-b5bd-46d2-8215-dcad70c40adb</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-04 01:59:51</sys_created_on>
+        <sys_id>af43c734db720010a6b070e2399619b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_af43c734db720010a6b070e2399619b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-04 02:08:38</sys_updated_on>
+        <ui_id>7b73d7c4-a91b-4d15-8a1e-bfc990d3b02c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=af43c734db720010a6b070e2399619b7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>af43c734db720010a6b070e2399619b7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-04 01:59:51</sys_created_on>
+        <sys_id>2743c734db720010a6b070e2399619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-04 01:59:51</sys_updated_on>
+        <value>x_58872_needit_assignee_category</value>
+        <variable display_value="">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>af43c734db720010a6b070e2399619b7</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-04 01:59:51</sys_created_on>
+        <sys_id>ab43c734db720010a6b070e2399619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-04 01:59:51</sys_updated_on>
+        <value>Branch for Assignee Categories</value>
+        <variable display_value="">2d6a2ca70b2313009002cab937673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>af43c734db720010a6b070e2399619b7</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-04 01:59:51</sys_created_on>
+        <sys_id>e743c734db720010a6b070e2399619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-04 01:59:51</sys_updated_on>
+        <value>268ce674db320010a6b070e239961926</value>
+        <variable display_value="">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=af43c734db720010a6b070e2399619b7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_priority</field>
+        <id>af43c734db720010a6b070e2399619b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-04 01:59:51</sys_created_on>
+        <sys_id>a743c734db720010a6b070e2399619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-04 01:59:51</sys_updated_on>
+        <table>var__m_sys_decision_input_268ce674db320010a6b070e239961926</table>
+        <value>{{1fb95201-77ba-4b72-b1cc-230a5da1b0fb.record.priority}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_request_type</field>
+        <id>af43c734db720010a6b070e2399619b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-04 01:59:51</sys_created_on>
+        <sys_id>a343c734db720010a6b070e2399619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-04 01:59:51</sys_updated_on>
+        <table>var__m_sys_decision_input_268ce674db320010a6b070e239961926</table>
+        <value>{{1fb95201-77ba-4b72-b1cc-230a5da1b0fb.record.u_request_type}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_what_needed</field>
+        <id>af43c734db720010a6b070e2399619b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-04 01:59:51</sys_created_on>
+        <sys_id>ef43c734db720010a6b070e2399619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-04 01:59:51</sys_updated_on>
+        <table>var__m_sys_decision_input_268ce674db320010a6b070e239961926</table>
+        <value>{{1fb95201-77ba-4b72-b1cc-230a5da1b0fb.record.u_what_needed}}</value>
+    </sys_element_mapping>
+</record_update>
